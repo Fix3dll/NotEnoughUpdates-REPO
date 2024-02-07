@@ -41,6 +41,55 @@
       }
     }
   },
+  "BEADY_EYES": {
+    "internalName": "BEADY_EYES",
+    "reforgeName": "Beady",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "VACUUM",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 20000,
+      "RARE": 50000,
+      "EPIC": 75000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 150000
+    },
+    "reforgeAbility": "§7§6Pests §7drop §a+3 §7crops.",
+    "reforgeStats": {
+      "COMMON": {
+        "intelligence": 10,
+        "damage": 5
+      },
+      "UNCOMMON": {
+        "intelligence": 20,
+        "damage": 10
+      },
+      "RARE": {
+        "intelligence": 30,
+        "damage": 15
+      },
+      "EPIC": {
+        "intelligence": 40,
+        "damage": 20
+      },
+      "LEGENDARY": {
+        "intelligence": 50,
+        "damage": 25
+      },
+      "MYTHIC": {
+        "intelligence": 60,
+        "damage": 30
+      }
+    }
+  },
   "BLESSED_FRUIT": {
     "internalName": "BLESSED_FRUIT",
     "reforgeName": "Blessed",
@@ -163,27 +212,27 @@
     "reforgeStats": {
       "COMMON": {
         "health": 2,
-        "farming_fortune": 4
+        "farming_fortune": 6
       },
       "UNCOMMON": {
         "health": 5,
-        "farming_fortune": 6
+        "farming_fortune": 9
       },
       "RARE": {
         "health": 8,
-        "farming_fortune": 8
+        "farming_fortune": 12
       },
       "EPIC": {
         "health": 11,
-        "farming_fortune": 10
+        "farming_fortune": 15
       },
       "LEGENDARY": {
         "health": 14,
-        "farming_fortune": 12
+        "farming_fortune": 18
       },
       "MYTHIC": {
         "health": 17,
-        "farming_fortune": 14
+        "farming_fortune": 21
       }
     }
   },
@@ -287,6 +336,49 @@
       "MYTHIC": {
         "health": 10,
         "defense": 5
+      }
+    }
+  },
+  "CLIPPED_WINGS": {
+    "internalName": "CLIPPED_WINGS",
+    "reforgeName": "Buzzing",
+    "reforgeType": "blacksmith/reforge_stone",
+    "itemTypes": "VACUUM",
+    "requiredRarities": [
+      "COMMON",
+      "UNCOMMON",
+      "RARE",
+      "EPIC",
+      "LEGENDARY",
+      "MYTHIC"
+    ],
+    "reforgeCosts": {
+      "COMMON": 10000,
+      "UNCOMMON": 20000,
+      "RARE": 50000,
+      "EPIC": 75000,
+      "LEGENDARY": 100000,
+      "MYTHIC": 150000
+    },
+    "reforgeAbility": "Doubles the §c❁ Damage §7dealt §7by §aVacuums§7.",
+    "reforgeStats": {
+      "COMMON": {
+        "speed": 3
+      },
+      "UNCOMMON": {
+        "speed": 4
+      },
+      "RARE": {
+        "speed": 5
+      },
+      "EPIC": {
+        "speed": 7
+      },
+      "LEGENDARY": {
+        "speed": 10
+      },
+      "MYTHIC": {
+        "speed": 15
       }
     }
   },
@@ -786,22 +878,34 @@
     "reforgeAbility": "§8Only if Wisp is equipped §c+75❁ Strength §9+55☠ Crit Damage §7Deal §62x §7to fire pillars, breaking one §7grants §f+30❂ True Defense §7and §c+1.15x §cdamage §7for §a60s§7.",
     "reforgeStats": {
       "COMMON": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 15,
+        "crit_damage": 20
       },
       "UNCOMMON": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 20,
+        "crit_damage": 30
       },
       "RARE": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 25,
+        "crit_damage": 40
       },
       "EPIC": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 35,
+        "crit_damage": 50
       },
       "LEGENDARY": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 45,
+        "crit_damage": 60
       },
       "MYTHIC": {
-        "magic_find": 2
+        "magic_find": 2,
+        "strength": 55,
+        "crit_damage": 75
       }
     }
   },
@@ -1471,11 +1575,13 @@
     "reforgeStats": {
       "LEGENDARY": {
         "damage": 75,
-        "strength": 75
+        "strength": 75,
+        "intelligence": 350
       },
       "MYTHIC": {
         "damage": 90,
-        "strength": 90
+        "strength": 90,
+        "intelligence": 400
       }
     }
   },
@@ -1716,7 +1822,7 @@
       "RARE": 150000,
       "EPIC": 300000,
       "LEGENDARY": 600000,
-      "MYTHIC": 2000000
+      "MYTHIC": 1200000
     },
     "reforgeAbility": "Deal §a+10% §7extra damage when arrows hit the head of a mob.",
     "reforgeStats": {
@@ -1950,7 +2056,7 @@
       "LEGENDARY": 150000,
       "MYTHIC": 300000
     },
-    "reforgeAbility": "Decreases damage taken from Zombie Pigmen, Zombies, Withers, and Skeletons by §a+2",
+    "reforgeAbility": "Decreases damage taken from Zombie Pigmen, Zombies, Withers, and Skeletons by §a2%§7.",
     "reforgeStats": {
       "COMMON": {
         "strength": 1,
@@ -2074,7 +2180,7 @@
       "MYTHIC": 500000,
       "DIVINE": 500000
     },
-    "reforgeAbility": "Grants a §a10% §7chance to gain §a1 §7extra §fMithril when mining Mithril Ore.",
+    "reforgeAbility": "Grants a §a10% §7chance to gain §a1 §7extra §fMithril §7when mining Mithril Ore.",
     "reforgeStats": {
       "COMMON": {
         "mining_speed": 6
@@ -2878,12 +2984,12 @@
       "MYTHIC": 10000
     },
     "reforgeAbility": {
-      "COMMON": "Gain §a+1% §7more Foraging exp.",
-      "UNCOMMON": "Gain §a+2% §7more Foraging exp.",
-      "RARE": "Gain §a+3% §7more Foraging exp.",
-      "EPIC": "Gain §a+4% §7more Foraging exp.",
-      "LEGENDARY": "Gain §a+5% §7more Foraging exp.",
-      "MYTHIC": "Gain §a+6% §7more Foraging exp."
+      "COMMON": "§7Grants §3+1☯ Foraging Wisdom§7.",
+      "UNCOMMON": "§7Grants §3+2☯ Foraging Wisdom§7.",
+      "RARE": "§7Grants §3+3☯ Foraging Wisdom§7.",
+      "EPIC": "§7Grants §3+4☯ Foraging Wisdom§7.",
+      "LEGENDARY": "§7Grants §3+5☯ Foraging Wisdom§7.",
+      "MYTHIC": "§7Grants §3+6☯ Foraging Wisdom§7."
     },
     "reforgeStats": {
       "COMMON": {
@@ -2930,16 +3036,18 @@
     "reforgeStats": {
       "RARE": {
         "damage": 165,
-        "strength": 165
+        "strength": 165,
+        "intelligence": 65
       },
       "EPIC": {
         "damage": 165,
-        "strength": 165
+        "strength": 165,
+        "intelligence": 100
       },
       "LEGENDARY": {
         "damage": 165,
         "strength": 165,
-        "intelligence": 65
+        "intelligence": 150
       }
     }
   },

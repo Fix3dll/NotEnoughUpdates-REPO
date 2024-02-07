@@ -12,7 +12,7 @@
   </a>
   <!-- lines -->
   <a href="https://github.com/NotEnoughUpdates/NotEnoughUpdates-REPO">
-    <img src="https://img.shields.io/tokei/lines/github/NotEnoughUpdates/NotEnoughUpdates-REPO?color=success&logo=github&logoColor=FFFFFF" alt="lines">
+    <img src="https://tokei.rs/b1/github/NotEnoughUpdates/NotEnoughUpdates-REPO" alt="lines">
   </a>
   <!-- discord -->
   <a href="https://discord.gg/moulberry" target="_blank">
@@ -34,7 +34,7 @@ In order to contribute to the item repo you should enable the item editor tools 
 I would also highly recommend disabling auto update if you are in the middle of making changes otherwise they will be overwritten.
 
 ```json
-"autoupdate": false,
+"autoupdate_new": false,
 ```
 
 Once you have these options enabled you can edit and add items in-game using the following keybinds:

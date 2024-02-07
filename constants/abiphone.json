@@ -1,4 +1,22 @@
 {
+  "Alchemist": {
+    "requirement": [
+      "§6- 64x Mutant Nether Wart."
+    ],
+    "island": "hub",
+    "x": 41,
+    "y": 71,
+    "z": -64
+  },
+  "Alixer": {
+    "requirement": [
+      "§6- Have at least 4 Bingo Goals completed."
+    ],
+    "island": "hub",
+    "x": 0,
+    "y": 72,
+    "z": -94
+  },
   "Anita": {
     "requirement": [
       "§6- Have Jacob's contact",
@@ -17,6 +35,15 @@
     "x": -323,
     "y": 154,
     "z": -1007
+  },
+  "Bingo": {
+    "requirement": [
+      "§7- No Requirement."
+    ],
+    "island": "hub",
+    "x": 2,
+    "y": 72,
+    "z": -92
   },
   "Blacksmith": {
     "requirement": [
@@ -73,6 +100,15 @@
     "y": 73,
     "z": -102
   },
+  "Einary": {
+    "requirement": [
+      "§6- 1x Einary's Red Hoodie"
+    ],
+    "island": "winter",
+    "x": -17,
+    "y": 77,
+    "z": 63
+  },
   "Elle": {
     "requirement": [
       "§6- Part of Mage Faction Quest"
@@ -81,6 +117,15 @@
     "x": -365,
     "y": 82,
     "z": -476
+  },
+  "Fann": {
+    "requirement": [
+      "§6- Give 1x Bat the Fish to Hootie"
+    ],
+    "island": "hub",
+    "x": 39,
+    "y": 71,
+    "z": -88
   },
   "Fear Mongerer": {
     "requirement": [
@@ -121,9 +166,9 @@
       "§6"
     ],
     "island": "hub",
-    "x": 32,
-    "y": 81,
-    "z": -94
+    "x": 39,
+    "y": 73,
+    "z": -101
   },
   "Igrupan": {
     "requirement": [
@@ -398,8 +443,8 @@
       "§6- Five Max Lvl Pets of Legendary tier or better in your pet menu."
     ],
     "island": "hub",
-    "x": 33,
-    "y": 72,
-    "z": -96
+    "x": 34,
+    "y": 73,
+    "z": -97
   }
 }
